@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Rivera — Game Designer</title>
+<meta name="description" content="A field atlas of game worlds designed by Alex Rivera — systems, levels, and economies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="frame-corner frame-corner-tl" aria-hidden="true"></div>
+<div class="frame-corner frame-corner-tr" aria-hidden="true"></div>
+<div class="frame-corner frame-corner-bl" aria-hidden="true"></div>
+<div class="frame-corner frame-corner-br" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">Alex Rivera</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#atlas">The Atlas</a>
+      <a href="#notes">Field Notes</a>
+      <a href="#signal">Send a Signal</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <svg class="compass" viewBox="0 0 200 200" aria-hidden="true">
+      <circle cx="100" cy="100" r="92" class="compass-ring"/>
+      <circle cx="100" cy="100" r="70" class="compass-ring compass-ring-thin"/>
+      <path d="M100 14 L108 96 L100 108 L92 96 Z" class="compass-needle"/>
+      <path d="M100 186 L92 104 L100 92 L108 104 Z" class="compass-needle compass-needle-dim"/>
+      <text x="100" y="30" class="compass-label" text-anchor="middle">N</text>
+    </svg>
+
+    <p class="coord coord-tl" aria-hidden="true">43.65°N, 79.38°W</p>
+    <p class="coord coord-br" aria-hidden="true">SHEET 01 / REV. 2026.08</p>
+
+    <div class="wrap hero-grid">
+      <div class="hero-inner">
+        <p class="kicker">A field atlas of game worlds</p>
+        <h1 class="hero-title">Alex Rivera</h1>
+        <p class="hero-role">Game Designer — Systems, Levels &amp; Economies</p>
+
+        <p class="hero-lead">I map the rules, rhythms, and terrain of playable worlds — the loop that pulls you back in, the curve that keeps a boss fight honest, the economy that makes a reward mean something. Seven years in the field, across shipped titles and weekend expeditions.</p>
+
+        <div class="hero-actions">
+          <a href="#atlas" class="btn btn-primary">Explore the atlas</a>
+          <a href="#signal" class="btn btn-ghost">Send a signal</a>
+        </div>
+
+        <p class="hero-meta">Based in Toronto &nbsp;·&nbsp; 7 years in the field &nbsp;·&nbsp; currently scouting new expeditions</p>
+      </div>
+
+      <aside class="map-key" aria-label="Map legend">
+        <p class="map-key-title">Map Key</p>
+        <ul class="map-key-list">
+          <li>
+            <a href="#plate-a1">
+              <span class="key-swatch key-swatch-amber" aria-hidden="true"></span>
+              <span class="key-label">A1 — Hollow Signal</span>
+            </a>
+          </li>
+          <li>
+            <a href="#plate-a2">
+              <span class="key-swatch key-swatch-sage" aria-hidden="true"></span>
+              <span class="key-label">A2 — Driftbound</span>
+            </a>
+          </li>
+          <li>
+            <a href="#plate-b1">
+              <span class="key-swatch key-swatch-rose" aria-hidden="true"></span>
+              <span class="key-label">B1 — Last Bus Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#plate-b2">
+              <span class="key-swatch key-swatch-amber" aria-hidden="true"></span>
+              <span class="key-label">B2 — Foundry Keepers</span>
+            </a>
+          </li>
+        </ul>
+        <div class="map-key-divider"></div>
+        <ul class="map-key-list map-key-list-secondary">
+          <li><a href="#notes"><span class="key-label">Field Notes</span></a></li>
+          <li><a href="#signal"><span class="key-label">Send a Signal</span></a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ ATLAS / WORK ============ -->
+  <section class="atlas" id="atlas">
+    <div class="wrap">
+      <div class="section-heading">
+        <p class="eyebrow">The Atlas</p>
+        <h2>Worlds I've mapped</h2>
+        <p class="section-sub">Four expeditions, each with its own terrain and its own rules. Replace these plates with your own projects.</p>
+      </div>
+
+      <div class="grid-ruler" aria-hidden="true">
+        <span>A</span><span>B</span>
+      </div>
+
+      <div class="plate-grid">
+
+        <!-- PLATE I -->
+        <article class="plate" id="plate-a1">
+          <div class="plate-panel">
+            <svg viewBox="0 0 120 120" class="plate-icon" aria-hidden="true">
+              <circle cx="60" cy="60" r="34" class="icon-line"/>
+              <path d="M60 26 Q 84 40 84 60 Q 84 80 60 94 Q 36 80 36 60 Q 36 40 60 26 Z" class="icon-line icon-fill"/>
+              <circle cx="60" cy="60" r="4" class="icon-dot"/>
+            </svg>
+            <span class="plate-tag">Plate I</span>
+            <span class="grid-ref">A1</span>
+          </div>
+          <div class="plate-body">
+            <p class="plate-role">Systems Design · Solo</p>
+            <h3>Hollow Signal</h3>
+            <p>A stealth world where enemies listen instead of patrol. I built the noise-propagation model and tuned the loop — observe, infer, act, adapt — so players read danger by ear, not by UI marker.</p>
+            <ul class="tag-list">
+              <li>Core Loop</li>
+              <li>AI Behavior</li>
+              <li>Unreal Engine</li>
+            </ul>
+            <div class="plate-links">
+              <a href="#" class="text-link">Read the expedition →</a>
+              <a href="#" class="text-link">Play build →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PLATE II -->
+        <article class="plate" id="plate-a2">
+          <div class="plate-panel">
+            <svg viewBox="0 0 120 120" class="plate-icon" aria-hidden="true">
+              <path d="M20 70 Q 40 40 60 70 T 100 70" class="icon-line icon-wave"/>
+              <path d="M20 88 Q 40 58 60 88 T 100 88" class="icon-line icon-wave icon-wave-dim"/>
+              <circle cx="60" cy="70" r="4" class="icon-dot"/>
+            </svg>
+            <span class="plate-tag">Plate II</span>
+            <span class="grid-ref">A2</span>
+          </div>
+          <div class="plate-body">
+            <p class="plate-role">Economy &amp; Systems Design · Team of 4</p>
+            <h3>Driftbound</h3>
+            <p>A sailing world charted by its salvage economy. I modeled resource sinks on paper before a line of code shipped, then balanced drop tables across forty hours of watching real crews sail it.</p>
+            <ul class="tag-list">
+              <li>Economy Design</li>
+              <li>Balancing</li>
+              <li>Godot</li>
+            </ul>
+            <div class="plate-links">
+              <a href="#" class="text-link">Read the expedition →</a>
+              <a href="#" class="text-link">Devlog →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PLATE III -->
+        <article class="plate" id="plate-b1">
+          <div class="plate-panel">
+            <svg viewBox="0 0 120 120" class="plate-icon" aria-hidden="true">
+              <path d="M14 90 L38 50 L58 68 L82 26 L106 60" class="icon-line icon-peaks"/>
+              <circle cx="82" cy="26" r="4" class="icon-dot"/>
+            </svg>
+            <span class="plate-tag">Plate III</span>
+            <span class="grid-ref">B1</span>
+          </div>
+          <div class="plate-body">
+            <p class="plate-role">Narrative &amp; Pacing Design · 48hr Jam</p>
+            <h3>Last Bus Home</h3>
+            <p>A weekend expedition about a bus driver on the last route of the apocalypse. Tension beats were mapped to bus stops, so pacing came from geography, not dialogue trees. Top 10 of 2,300 entries.</p>
+            <ul class="tag-list">
+              <li>Pacing</li>
+              <li>Narrative Systems</li>
+              <li>Unity</li>
+            </ul>
+            <div class="plate-links">
+              <a href="#" class="text-link">Read the expedition →</a>
+              <a href="#" class="text-link">Play on itch →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PLATE IV -->
+        <article class="plate" id="plate-b2">
+          <div class="plate-panel">
+            <svg viewBox="0 0 120 120" class="plate-icon" aria-hidden="true">
+              <circle cx="30" cy="60" r="7" class="icon-line"/>
+              <path d="M37 60 L60 60" class="icon-line"/>
+              <circle cx="60" cy="60" r="7" class="icon-line"/>
+              <path d="M67 55 L88 34" class="icon-line"/>
+              <path d="M67 65 L88 86" class="icon-line"/>
+              <circle cx="92" cy="30" r="5" class="icon-line"/>
+              <circle cx="92" cy="90" r="5" class="icon-line icon-fill"/>
+            </svg>
+            <span class="plate-tag">Plate IV</span>
+            <span class="grid-ref">B2</span>
+          </div>
+          <div class="plate-body">
+            <p class="plate-role">Level Design · Team of 12</p>
+            <h3>Foundry Keepers</h3>
+            <p>A hub-and-spoke world built for four players to split up without losing the thread. I owned the layout pass and paced unlocks so no zone ever felt like the "wrong" one to explore.</p>
+            <ul class="tag-list">
+              <li>Level Design</li>
+              <li>Co-op Flow</li>
+              <li>Unity</li>
+            </ul>
+            <div class="plate-links">
+              <a href="#" class="text-link">Read the expedition →</a>
+              <a href="#" class="text-link">Store page →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FIELD NOTES ============ -->
+  <section class="notes" id="notes">
+    <div class="wrap notes-inner">
+      <div class="section-heading">
+        <p class="eyebrow">Field Notes</p>
+        <h2>What I've learned out there</h2>
+      </div>
+
+      <div class="notes-grid map-frame">
+        <span class="bracket bracket-tl" aria-hidden="true"></span>
+        <span class="bracket bracket-br" aria-hidden="true"></span>
+        <div class="notes-text">
+          <p class="notes-lead">Every mechanic is a promise. The moment a player learns a rule, they start testing where it breaks — and my job is to make sure the edges hold, so breaking them feels like mastery instead of a glitch.</p>
+          <p>I chart a system on paper before I prototype it, and prototype before I pitch it. Numbers tell the truth a rulebook hides. I've led design on shipped titles and gone it alone in a weekend jam, and both trips taught me the same thing: cut the mechanic before you cut the clarity.</p>
+        </div>
+
+        <ul class="note-list">
+          <li>
+            <span class="note-mark">✎</span>
+            <div>
+              <h3>Legible feedback loops</h3>
+              <p>If a player can't explain why they won or lost, the system failed before the level did.</p>
+            </div>
+          </li>
+          <li>
+            <span class="note-mark">✎</span>
+            <div>
+              <h3>Friction is a tool</h3>
+              <p>Difficulty isn't the enemy of fun — unexplained difficulty is.</p>
+            </div>
+          </li>
+          <li>
+            <span class="note-mark">✎</span>
+            <div>
+              <h3>Playtest early, playtest ugly</h3>
+              <p>A grey-box level tells the truth a beautiful mockup never will.</p>
+            </div>
+          </li>
+          <li>
+            <span class="note-mark">✎</span>
+            <div>
+              <h3>Chart the numbers first</h3>
+              <p>Balance the economy on paper — story can justify a system, it can't fix one.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SIGNAL / CONTACT ============ -->
+  <section class="signal" id="signal">
+    <div class="wrap signal-inner map-frame">
+      <span class="bracket bracket-tl" aria-hidden="true"></span>
+      <span class="bracket bracket-br" aria-hidden="true"></span>
+      <p class="eyebrow">Send a Signal</p>
+      <h2 class="signal-title">Let's chart something together</h2>
+      <p class="signal-sub">Currently scouting full-time design roles, contract expeditions, and jam parties who need someone to own the systems.</p>
+
+      <a href="mailto:hello@alexrivera.dev" class="signal-email">hello@alexrivera.dev</a>
+
+      <ul class="social-list">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">itch.io</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Bluesky</a></li>
+      </ul>
+
+      <div class="badge" aria-hidden="true">
+        <svg viewBox="0 0 100 100" class="badge-ring">
+          <circle cx="50" cy="50" r="46" class="badge-circle"/>
+        </svg>
+        <span class="badge-text">Open to<br>expeditions</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>Alex Rivera — game designer</p>
+    <p>Built with HTML &amp; CSS, hosted on GitHub Pages.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
